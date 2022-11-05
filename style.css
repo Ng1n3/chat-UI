@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+:root {
+    /*COLORS*/
+    --clr-txt-sh-cht: hsl(276, 100%, 81%);
+    --clr-txt-lf-cht: hsl(276, 55%, 52%);
+    --clr-txt-rt-cht: hsl(271, 15%, 43%);
+    --clr-txt-ph-cht: hsl(206, 6%, 79%);
+    --clr-txt-mh-cht: hsl(271, 36%, 24%);
+    --clr-txt-ph-cht: hsl(270, 7%, 64%);
+
+    --clr-grd-primary: hsl(293, 100%, 63%);
+    --clr-grd-secondary: hsl(264, 100%, 61%);
+
+    --clr-secondary-grayish-violet: hsl(270, 20%, 96%);
+    --clr-secondary-desturated-violet: hsl(271, 36%, 24%);
+    --clr-secondary-white: hsl(0, 0%, 100%);
+    --clr-secondary-light-magenta: hsl(289, 100%, 72%);
+
+    /*FONT FAMILY*/
+    --ff-body: 'Rubik', sans-serif;
+
+    /*FONT WEIGHT*/
+    --fw-level-400: 400;
+    --fw-level-500: 500;
+    --fw-level-700: 700;
+
+    /*FONT SIZE*/
+    --fs-body: 16px;
+
+}
+
