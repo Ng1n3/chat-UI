@@ -244,18 +244,19 @@ template {
   /* position:absolute; */
   background-color: var(--clr-grd-secondary);
   border: none;
-  border-radius: 200px;
+  border-radius: 250px;
 }
 
 .bg-background-curve2 {
   width: 700px;
-  height: 100vh;
-  margin-right: -80px;
+  height: 80vh;
+  margin-right: -150px;
+  margin-top: 30vh;
   align-self: flex-end;
   /* position:absolute; */
   background-color: var(--clr-secondary-grayish-violet);
   border: none;
-  border-radius: 150px;
+  border-radius: 250px 200px 0 0;
 }
 
 .main {
@@ -264,7 +265,7 @@ template {
   margin: 0 -150px;
   /* border: 2px solid black; */
   display: flex;
-  gap: 200px;
+  gap: 150px;
   align-items: center;
 }
 
@@ -454,7 +455,7 @@ input {
 }
 
  .text-container h1 {
-  font-size: 50px;
+  font-size: 40px;
   font-weight: var(--fw-level-500);
   color: var(--clr-secondary-desturated-violet);
 }
@@ -464,4 +465,10 @@ input {
   line-height: 1.8;
   color: var(--clr-txt-ph-cht2);
   margin-top: 40px;
+}
+
+.attribution {
+  margin-top: 50px;
+  font-size: 16px;
+  color: var(--clr-txt-ph-cht2);
 }
