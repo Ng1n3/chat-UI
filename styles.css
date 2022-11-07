@@ -472,3 +472,184 @@ input {
   font-size: 16px;
   color: var(--clr-txt-ph-cht2);
 }
+
+@media screen 
+  and (min-device-width: 360px) 
+  and (max-device-width: 640px) {
+
+    .container {
+      max-width: 400px;
+    }
+
+    .bg-background-curve {
+      margin-top: -200px;
+      margin-left: -90px;
+      width: 200px;
+      height: 100vh;
+    }
+
+    .bg-background-curve2 {
+      max-width: 200px;
+      height: 100vh;
+      margin-right: -90px;
+      margin-top: 50vh;
+    }
+
+    .main {
+      /* position: absolute;    
+      right: 100px; */
+      display: flex;
+      flex-direction: column;
+      align-self: center;
+      gap: 100px;
+      justify-content: center;
+    }
+
+    .phone-container {
+      width: 320px;
+      height: 650px;
+      border-radius: 45px;
+    }
+
+    .inner-display {
+      width: 290px;
+      height: 620px;
+      margin: 15px;
+      border-radius: 35px;
+    }
+
+    .navbar {
+      width: 290px;
+      height: 100px;
+      border-radius: 30px 30px 10px 10px;
+    }
+
+    .notch {
+      width: 150px;
+      height: 25px;
+      bottom: 12px;
+      border-radius: 15px;
+    }
+
+    .profile {
+      padding: 12px 20px;
+      gap: 10px;
+    }
+
+    .images {
+      display: flex;
+      gap: 15px;
+      align-items: center;
+    }
+
+    .images h1 {
+      font-size: 15px;
+      font-weight: var(--fw-level-500);
+    }
+
+    .images p {
+      color: var(--clr-txt-sh-cht);
+      font-size: 14px;
+    }
+
+    .images p {
+      color: var(--clr-txt-sh-cht);
+      font-size: 12px;
+    }
+
+    .images img{
+      width: 30px;
+    }
+
+    .text-div {
+      margin-top: 10px;
+      margin-left: 10px;
+      max-width: 170px;
+      padding: 8px;
+      font-size: 11px;
+      line-height: 1.5;
+    }
+
+    .dog-images img {
+      width: 50px;
+      border-radius: 10px;
+    }
+
+    .dog-images {
+      margin-top: 15px;
+      margin-right: 10px;
+    }
+
+    .text-div-r {
+      margin-top: 10px;
+      gap: 10px;
+      margin-right: 10px;
+      font-size: 11px;
+    }
+
+    .text-box {
+      max-width: 170px;
+      padding: 8px;
+    }
+
+    .radio-chat {
+      max-width: 200px;
+      margin-left: 10px;
+      margin-top: 10px;
+      padding: 8px;
+      font-size: 11px;
+    }
+
+    
+    .radio {
+    width: 17px;
+      height: 17px;
+    }
+
+    .radio-details .price {
+      font-size: 18px;
+    }
+
+    .input {
+      margin-top: 15px;
+    }
+
+    input {
+      width: 265px;
+      height: 40px;
+      margin: 0 10px;
+      padding: 10 15px;
+      border-radius: 30px;
+      font-size: 11px;
+    }
+
+    .input i {
+      position: absolute;
+      left: 240px;
+      bottom: 592px;
+      color: var(--clr-secondary-desturated-violet);
+    }
+
+    .text-container {
+      max-width: 350px;
+      padding: 15px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .text-container h1 {
+      font-size: 35px;
+    }
+
+    .text-container p {
+      font-size: 15px;
+      line-height: 1.8;
+      color: var(--clr-txt-ph-cht2);
+      margin-top: 25px;
+    }
+    
+    .attribution {
+      font-size: 14px;
+    }
+} 
+
